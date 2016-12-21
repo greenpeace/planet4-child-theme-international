@@ -1,0 +1,29 @@
+{
+  "name": "anselmh/greenpeace-global-theme-child",
+  "description": "Example Child theme of Greenpeace Global Theme",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "authors": [
+      {
+          "name": "Anselm Hannemann",
+          "email": "ahannema@greenpeace.org"
+      }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "extra": {
+  	"installer-paths": {
+      "../../plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+  	}
+	},
+  "require": {
+	  "wpackagist-plugin/timber-library": "0.22.*"
+  }
+}
