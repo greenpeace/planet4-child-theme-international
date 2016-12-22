@@ -15,5 +15,6 @@ Text Domain: greenpeace-global-theme-child
 body {
 	width: 1280px;
 	background-color: #eee;
+	border: 0;
 	color: black;
 }
