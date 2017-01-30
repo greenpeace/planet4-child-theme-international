@@ -1,15 +1,15 @@
 /*
-Theme Name: Greenpeace Global Theme Child
-Theme URI: https://github.com/anselmh/greenpeace-global-theme-child/
-Description: Greenpeace Global Theme Child Example
+Theme Name: Greenpeace Planet 4 Child Theme
+Theme URI: https://github.com/greenpeace/greenpeace-planet4-child-theme
+Description: Exemplary child theme for the Planet 4 Wordpress project
 Author: Anselm Hannemann
-Author URI: https://helloanselm.com
-Template: greenpeace-global-theme
+Author URI: https://github.com/greenpeace
+Template: greenpeace-planet4-master-theme
 Version: 0.1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
-Text Domain: greenpeace-global-theme-child
+Text Domain: greenpeace-planet4-child-theme
 */
 
 body {

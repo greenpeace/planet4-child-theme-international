@@ -1,3 +1,4 @@
-# Greenpeace Example Child Theme
+# Greenpeace Planet 4 Child Theme
 
-This is a child theme of https://github.com/anselmh/greenpeace-global-theme.
+Exemplary child theme for the Planet 4 Wordpress project.
+The master theme’s code lives at: https://github.com/greenpeace/greenpeace-planet4-master-theme.

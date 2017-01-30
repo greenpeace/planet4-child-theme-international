@@ -1,29 +1,36 @@
 {
-  "name": "anselmh/greenpeace-global-theme-child",
-  "description": "Example Child theme of Greenpeace Global Theme",
-  "type":"wordpress-theme",
-  "minimum-stability" : "stable",
-  "authors": [
-      {
-          "name": "Anselm Hannemann",
-          "email": "ahannema@greenpeace.org"
-      }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    }
-  ],
-  "extra": {
-  	"installer-paths": {
-      "../../plugins/{$name}/": [
-        "wpackagist-plugin/*",
-        "type:wordpress-plugin"
-      ]
-  	}
+	"name": "greenpeace/greenpeace-planet4-child-theme",
+	"description": "Exemplary child theme for the Planet 4 Wordpress project",
+	"type":"wordpress-theme",
+	"minimum-stability" : "stable",
+	"authors": [
+			{
+					"name": "Anselm Hannemann",
+					"email": "ahannema@greenpeace.org",
+					"role": "Front-End Developer"
+			}
+	],
+	"license": "GPL-3.0+",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/greenpeace/greenpeace-planet4-child-theme/issues",
+		"wiki": "https://github.com/greenpeace/greenpeace-planet4-child-theme/wiki",
+		"source": "https://github.com/greenpeace/greenpeace-planet4-child-theme"
 	},
-  "require": {
-	  "wpackagist-plugin/timber-library": "0.22.*"
-  }
+	"extra": {
+		"installer-paths": {
+			"../../plugins/{$name}/": [
+				"wpackagist-plugin/*",
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"require": {
+		"wpackagist-plugin/timber-library": "0.22.*"
+	}
 }
