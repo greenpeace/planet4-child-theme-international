@@ -1,5 +1,5 @@
 {
-	"name": "greenpeace/greenpeace-planet4-child-theme",
+	"name": "greenpeace/planet4-child-theme",
 	"description": "Exemplary child theme for the Planet 4 Wordpress project",
 	"type":"wordpress-theme",
 	"minimum-stability" : "stable",
