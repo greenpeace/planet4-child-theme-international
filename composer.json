@@ -1,6 +1,6 @@
 {
 	"name": "greenpeace/planet4-child-theme",
-	"description": "Exemplary child theme for the Planet 4 Wordpress project",
+	"description": "Exemple child theme for the Planet 4 Wordpress project",
 	"type":"wordpress-theme",
 	"minimum-stability" : "stable",
 	"authors": [
@@ -18,9 +18,9 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/greenpeace/greenpeace-planet4-child-theme/issues",
-		"wiki": "https://github.com/greenpeace/greenpeace-planet4-child-theme/wiki",
-		"source": "https://github.com/greenpeace/greenpeace-planet4-child-theme"
+		"issues": "https://github.com/greenpeace/planet4-child-theme/issues",
+		"wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
+		"source": "https://github.com/greenpeace/planet4-child-theme"
 	},
 	"extra": {
 		"installer-paths": {
