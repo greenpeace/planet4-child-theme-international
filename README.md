@@ -1,6 +1,6 @@
-# Greenpeace Planet 4 Eastasia Theme
+# Greenpeace Planet 4 International Theme
 
-Planet 4 child theme for Eastasia. The related master theme’s code lives at:
+Planet 4 child theme for International. The related master theme’s code lives at:
 
 https://github.com/greenpeace/planet4-master-theme.
 

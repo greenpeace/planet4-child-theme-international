@@ -1,6 +1,6 @@
 {
-	"name": "greenpeace/planet4-child-theme-eastasia",
-	"description": "P4 child theme for Eastasia website",
+	"name": "greenpeace/planet4-child-theme-international",
+	"description": "P4 child theme for International website",
 	"type":"wordpress-theme",
 	"minimum-stability" : "stable",
 	"license": "GPL-3.0+",
@@ -11,7 +11,7 @@
 		}
 	],
 	"support": {
-		"source": "https://github.com/greenpeace/planet4-child-theme-eastasia"
+		"source": "https://github.com/greenpeace/planet4-child-theme-international"
 	},
 	"extra": {
 		"installer-paths": {
