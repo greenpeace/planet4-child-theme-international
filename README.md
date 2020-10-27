@@ -1,7 +1,6 @@
-# Greenpeace Planet 4 Child Theme
+# Greenpeace Planet 4 Eastasia Theme
 
-Child theme for the Planet 4 Wordpress project.
-The related master theme’s code lives at: 
+Planet 4 child theme for Eastasia. The related master theme’s code lives at:
 
 https://github.com/greenpeace/planet4-master-theme.
 

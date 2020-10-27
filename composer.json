@@ -1,15 +1,8 @@
 {
-	"name": "greenpeace/planet4-child-theme",
-	"description": "Exemple child theme for the Planet 4 Wordpress project",
+	"name": "greenpeace/planet4-child-theme-eastasia",
+	"description": "P4 child theme for Eastasia website",
 	"type":"wordpress-theme",
 	"minimum-stability" : "stable",
-	"authors": [
-		{
-			"name": "Anselm Hannemann",
-			"email": "ahannema@greenpeace.org",
-			"role": "Front-End Developer"
-		}
-	],
 	"license": "GPL-3.0+",
 	"repositories": [
 		{
@@ -18,9 +11,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/greenpeace/planet4-child-theme/issues",
-		"wiki": "https://github.com/greenpeace/planet4-child-theme/wiki",
-		"source": "https://github.com/greenpeace/planet4-child-theme"
+		"source": "https://github.com/greenpeace/planet4-child-theme-eastasia"
 	},
 	"extra": {
 		"installer-paths": {
