@@ -16,3 +16,56 @@ Text Domain: planet4-child-theme-international
 	Display which theme is active right now in bottom right corner
 	See also planet4-child-theme. Feel free to drop or hide display
 */
+
+
+/*
+	Country selector banner for A/B test
+*/
+#country-selector-banner {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: #042233;
+  padding: 16px 24px;
+  transition: height 3s, opacity 0.3s;
+}
+
+#country-selector-banner:not(.show) {
+  opacity: 0;
+}
+
+#country-selector-banner > div {
+  justify-content: space-between;
+}
+
+#country-selector-banner .close-banner {
+  width: 16px;
+  height: 24px;
+  min-width: 16px;
+  margin-inline-start: 16px;
+  cursor: pointer;
+}
+
+#country-selector-banner a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  #country-selector-banner {
+    padding-inline-start: calc((100vw - 960px) / 2);
+  }
+}
+
+@media (min-width: 1200px) {
+  #country-selector-banner {
+    padding-inline-start: calc((100vw - 1140px) / 2);
+  }
+}
+
+@media (min-width: 1600px) {
+  #country-selector-banner {
+    padding-inline-start: calc((100vw - 1320px) / 2);
+  }
+}
