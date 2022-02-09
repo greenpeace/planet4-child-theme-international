@@ -1,0 +1,66 @@
+---
+version: 2.1
+
+docker_auth: &docker_auth
+  username: $DOCKERHUB_USERNAME
+  password: $DOCKERHUB_PASSWORD
+
+defaults: &defaults
+  docker:
+    - image: greenpeaceinternational/circleci-base:latest
+      auth:
+        <<: *docker_auth
+
+job_definitions:
+  trigger_steps: &trigger_steps
+    working_directory: ~/
+    parameters:
+      pipeline:
+        default: "main"
+        type: string
+    steps:
+      - run:
+          name: Trigger website deployment
+          command: |
+            reponame=${CIRCLE_PROJECT_REPONAME}
+            split=(${reponame//-/ })
+            website=${split[3]}
+            echo "Website: ${website}"
+            trigger-build.sh git@github.com:greenpeace/planet4-${website}.git << parameters.pipeline >>
+
+jobs:
+  trigger-develop:
+    <<: *defaults
+    <<: *trigger_steps
+
+  trigger-production:
+    <<: *defaults
+    <<: *trigger_steps
+
+workflow_definitions:
+  on_develop_commit: &on_develop_commit
+    context: org-global
+    filters:
+      branches:
+        only: main
+
+  on_release_tag: &on_release_tag
+    context: org-global
+    filters:
+      branches:
+        ignore: /.*/
+      tags:
+        only: /^v.*/
+
+workflows:
+  develop:
+    jobs:
+      - trigger-develop:
+          <<: *on_develop_commit
+          pipeline: main
+
+  production:
+    jobs:
+      - trigger-production:
+          <<: *on_release_tag
+          pipeline: tag
