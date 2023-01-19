@@ -13,6 +13,45 @@ Text Domain: planet4-child-theme-international
 */
 
 /*
+  Test new font
+*/
+@font-face {
+  font-family: "Greenpeace Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(extra/GreenpeaceSans-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Greenpeace Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(extra/GreenpeaceSans-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Greenpeace Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(extra/GreenpeaceSans-Bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: "Greenpeace Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(extra/GreenpeaceSans-Bold.woff2) format('woff2');
+}
+
+:root {
+  --headings--font-family: "Greenpeace Sans", serif;
+}
+
+/*
 	Country selector banner for A/B test
 */
 #country-selector-banner {
